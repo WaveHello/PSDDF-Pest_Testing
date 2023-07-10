@@ -19,7 +19,7 @@ obsGrp2
 * observation data
 height01 -0.96377 1 obsGrp1
 * model command line
-Run_Pest.bat
+Run_PestPSDDF.bat
 * model input
 FindGs_InTempl.tpl Gs_finder.psi
 * model output
