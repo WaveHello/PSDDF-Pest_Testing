@@ -1,0 +1,38 @@
+pcf
+* control data
+restart	estimation
+2 1 1 1 2
+1 1 single point 1
+10 -2 0.3 0.01 10
+10 10 0.001
+0.1
+-1 0.005 4 4 0.005 4
+0 0 0
+* parameter groups
+paramGrp1 relative 1e-2 1e-5 switch 1 parabolic
+* parameter data
+Gs_val none relative 1.5 0.5 5.00 paramGrp1 1 0
+Des_lim none relative 3.1 3.05 3.15 paramGrp1 1 0
+* observation groups
+obsGrp1
+obsGrp2
+* observation data
+height01 -0.96377 1 obsGrp1
+* model command line
+Run_Pest.bat
+* model input
+FindGs_InTempl.tpl Gs_finder.psi
+* model output
+FindGs_Instruc.ins Gs_Finder_Rs.psp
+* prior information
+pi1 1.0 * Des_lim = 3.1 1.0 obsGrp2
+#"Prior information label" "Eqn" "Observed value" "Equation objective function weight" "Objective function group"
+
+#During normal runs regularization should be commented out. GLM has pre-written values
+#* regularization
+#1e-10 1.05e-10 0.1
+#1     1e-10    1e10
+#1.3   1e-3 0
+
+# Values in "" should be filled with the appropriate value for that model run
+# Begin control variables (Unique to each PEST++ program)
