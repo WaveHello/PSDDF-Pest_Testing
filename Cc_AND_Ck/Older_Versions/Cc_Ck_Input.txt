@@ -1,0 +1,16 @@
+$$ Gamma_w (kN/m^3)
+9.810
+$$ PRECONSOLIDATION_STRESS
+1
+$$ Cc
+0.9
+$$ Cr/Cc
+0.21
+$$ e0
+3
+$$ ef
+0.5
+$$ Input_Num_Points
+68
+$$ Cv (cm^2/s)
+1e-3
