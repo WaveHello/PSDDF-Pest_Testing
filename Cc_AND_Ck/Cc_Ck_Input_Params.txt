@@ -1,0 +1,38 @@
+$$ Gamma_w (kN/m^3)
+9.810
+$$ MATERIAL_ID
+1
+$$ VOID_RELATION_START_LINE
+105
+$$ INPUT_NUM_POINTS
+36
+$$ PRECONSOLIDATION_STRESS
+1
+$$ e0
+6
+$$ ef
+2
+$$ Cc
+2.2
+$$ Cr/Cc
+0.21
+$$ Cv (cm^2/s)
+1e-5
+$$ MATERIAL_ID
+2
+$$ VOID_RELATION_START_LINE
+142
+$$ INPUT_NUM_POINTS
+16
+$$ PRECONSOLIDATION_STRESS
+1
+$$ e0
+8
+$$ ef
+2
+$$ Cc
+2.2
+$$ Cr/Cc
+0.21
+$$ Cv (cm^2/s)
+1e-5

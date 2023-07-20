@@ -1,3 +1,18 @@
 
 addamse.tmp
 Example2 .psi
+*.c
+*.o
+*.const
+*.dll
+*.pyd
+*.pyc
+*.toc
+*.dblite
+Cc_AND_Ck/Ck_Cc_script.build/@link_input.txt
+Cc_AND_Ck/Ck_Cc_script.build/__constants.bin
+Cc_AND_Ck/Ck_Cc_script.build/__constants.h
+Cc_AND_Ck/Ck_Cc_script.build/__helpers.h
+Cc_AND_Ck/Ck_Cc_script.build/build_definitions.h
+Cc_AND_Ck/Ck_Cc_script.build/ccache-11720.txt
+Cc_AND_Ck/Ck_Cc_script.build/scons-report.txt
