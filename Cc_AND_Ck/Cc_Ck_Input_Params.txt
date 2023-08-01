@@ -9,7 +9,7 @@ $$ INPUT_NUM_POINTS
 $$ PRECONSOLIDATION_STRESS
 1
 $$ e0
-6
+10
 $$ ef
 2
 $$ Cc
