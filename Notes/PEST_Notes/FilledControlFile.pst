@@ -1,0 +1,35 @@
+pcf
+* control data
+restart	estimation
+1 1	1 1 1
+2 2 single point 1
+10 -2 0.3 0.01 10
+10 10 0.001
+0.1
+50 0.005 4 4 0.005 4
+0 0 0
+* parameter groups
+paramGrp1 relative 1e-2 1e-5 switch 1 parabolic
+* parameter data
+param1 none relative 1 0.1 10 paramGrp1 1	0 1
+* observation groups
+obsGrp1
+* observation data
+obs1 5 1 obsGrp1
+* model command line
+model.bat
+* model input
+file.tpl modelInput.txt
+* model output
+file.ins	modelOuput.txt
+#* prior information
+#"Prior information label" "Eqn" "Observed value" "Equation objective function weight" "Objective function group"
+
+# During normal runs regularization should be commented out. GLM has pre-written values
+#* regularization
+#1e-10 1.05e-10 0.1
+#1     1e-10    1e10
+#1.3   1e-3 0
+
+# Values in "" should be filled with the appropriate value for that model run
+# Begin control variables (Unique to each PEST++ program)
